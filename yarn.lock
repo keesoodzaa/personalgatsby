@@ -2469,6 +2469,11 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
+"@snyk/protect@^1.1198.0":
+  version "1.1198.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1198.0.tgz#598c1febd48ffa739a64967a30c1ac327e705618"
+  integrity sha512-SO03i6Y+1gtkfZ64ng+gI4OX5Q56U4GIbjnkcfp5HXj+tId1bptTv/wbVr829qtFg4hkdUjKimptsmddhkIQzw==
+
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
