@@ -2469,10 +2469,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@snyk/protect@^1.1198.0":
-  version "1.1198.0"
-  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1198.0.tgz#598c1febd48ffa739a64967a30c1ac327e705618"
-  integrity sha512-SO03i6Y+1gtkfZ64ng+gI4OX5Q56U4GIbjnkcfp5HXj+tId1bptTv/wbVr829qtFg4hkdUjKimptsmddhkIQzw==
+"@snyk/protect@latest":
+  version "1.1279.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1279.0.tgz#a82a3da90d8cfc8547488b1654baeeca2435a75d"
+  integrity sha512-JviCIGYgPSrEAhaGyOTs1p2Guqe12LvjHgw4vbkDJtRCSkLX92h7CVnKhZIUoz3gOqTfDBDuW9uebhpk5OSVZg==
 
 "@socket.io/component-emitter@~3.1.0":
   version "3.1.0"
@@ -2499,6 +2499,11 @@
   integrity sha512-+PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs//cw==
   dependencies:
     defer-to-connect "^2.0.1"
+
+"@testing-library/user-event@^14.3.0":
+  version "14.5.2"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.2.tgz#db7257d727c891905947bd1c1a99da20e03c2ebd"
+  integrity sha512-YAh82Wh4TIrxYLmfGcixwD18oIjyC1pFQC2Y01F2lzV2HTMiYrI0nze0FD0ocB//CKS/7jIUgae+adPqxK5yCQ==
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -10812,11 +10817,12 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
-react-slick@^0.25.2:
-  version "0.25.2"
-  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.25.2.tgz#56331b67d47d8bcfe2dceb6acab1c8fd5bd1f6bc"
-  integrity sha512-8MNH/NFX/R7zF6W/w+FS5VXNyDusF+XDW1OU0SzODEU7wqYB+ZTGAiNJ++zVNAVqCAHdyCybScaUB+FCZOmBBw==
+react-slick@^0.30.0:
+  version "0.30.1"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.30.1.tgz#9584e83282f6b70f26ceeac0a687870c8ca1618e"
+  integrity sha512-xtxWBIJH9CvcleAfcZD5A78YtqfHYRMAIkn/AQZFk6Qh/HP/DUtbd3BqHvPKS/Oz0yuINM3YMtw0xLfXvQjeMA==
   dependencies:
+    "@testing-library/user-event" "^14.3.0"
     classnames "^2.2.5"
     enquire.js "^2.1.6"
     json2mq "^0.2.0"
